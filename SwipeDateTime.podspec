@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwipeDateTime"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "SwipeDateTime is the custom control for displaying month, year, time"
 
   # This description is used to generate tags and improve search results.

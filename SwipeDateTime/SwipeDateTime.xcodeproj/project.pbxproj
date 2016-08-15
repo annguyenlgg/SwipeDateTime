@@ -13,6 +13,7 @@
 		9507EDEC1D616C1100929640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9507EDEA1D616C1100929640 /* Main.storyboard */; };
 		9507EDEE1D616C1100929640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9507EDED1D616C1100929640 /* Assets.xcassets */; };
 		9507EDF11D616C1100929640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9507EDEF1D616C1100929640 /* LaunchScreen.storyboard */; };
+		9507EE051D6199C700929640 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 9507EE041D6199C700929640 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9507EDF01D616C1100929640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9507EDF21D616C1100929640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9507EDF81D616D2400929640 /* SourceCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SourceCode; sourceTree = "<group>"; };
+		9507EE041D6199C700929640 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		9507EDE01D616C1100929640 /* SwipeDateTime */ = {
 			isa = PBXGroup;
 			children = (
+				9507EE041D6199C700929640 /* Resources */,
 				9507EDE41D616C1100929640 /* SwipeDateTimeDelegate.h */,
 				9507EDE51D616C1100929640 /* SwipeDateTimeDelegate.m */,
 				9507EDE71D616C1100929640 /* DemoVC.h */,
@@ -138,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9507EE051D6199C700929640 /* Resources in Resources */,
 				9507EDF11D616C1100929640 /* LaunchScreen.storyboard in Resources */,
 				9507EDEE1D616C1100929640 /* Assets.xcassets in Resources */,
 				9507EDEC1D616C1100929640 /* Main.storyboard in Resources */,
@@ -304,6 +308,7 @@
 				9507EDF71D616C1100929640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

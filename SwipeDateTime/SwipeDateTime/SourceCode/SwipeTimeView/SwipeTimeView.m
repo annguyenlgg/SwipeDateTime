@@ -31,14 +31,14 @@
     self.backgroundColor = UIColorFromRGB(0xeef5ff);
     
     leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [leftButton setImage:[UIImage imageNamed:@"header_arrow_gray_left.png"] forState:UIControlStateNormal];
+    [leftButton setImage:[UIImage imageNamed:@"arrow_gray_left.png"] forState:UIControlStateNormal];
     leftButton.frame = CGRectMake(0, 0, self.frame.size.height, self.frame.size.height);
     [leftButton addTarget:self action:@selector(touchPre:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:leftButton];
     
     
     rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [rightButton setImage:[UIImage imageNamed:@"header_arrow_gray_right.png"] forState:UIControlStateNormal];
+    [rightButton setImage:[UIImage imageNamed:@"arrow_gray_right.png"] forState:UIControlStateNormal];
     rightButton.frame = CGRectMake(SCREEN_WIDTH - self.frame.size.height, 0, self.frame.size.height, self.frame.size.height);
     [rightButton addTarget:self action:@selector(touchNext:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:rightButton];
