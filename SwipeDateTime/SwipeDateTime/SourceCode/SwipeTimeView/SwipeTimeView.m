@@ -74,7 +74,7 @@
 
 - (IBAction)touchPre:(id)sender {
     NSCalendar *cal = [NSCalendar currentCalendar];
-    NSDateComponents *components = [cal components:( NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit ) fromDate:tempDate];
+    NSDateComponents *components = [cal components:( NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond ) fromDate:tempDate];
     
     [components setHour:-24];
     [components setMinute:0];
@@ -93,7 +93,7 @@
 
 - (IBAction)touchNext:(id)sender {
     NSCalendar *cal = [NSCalendar currentCalendar];
-    NSDateComponents *components = [cal components:( NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit ) fromDate:tempDate];
+    NSDateComponents *components = [cal components:( NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond ) fromDate:tempDate];
     
     [components setHour:+24];
     [components setMinute:0];

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwipeDateTime"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "SwipeDateTime is the custom control for displaying month, year, time"
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+s.source_files  = "SwipeDateTime", "SwipeDateTime/SwipeDateTime/SourceCode/**/*.{h,m}"
+#s.exclude_files = "SwipeDateTime/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -115,8 +115,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.framework  = "Foundation"
+  # s.frameworks = "Foundation", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
